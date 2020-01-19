@@ -1,0 +1,17 @@
+{
+  "name": "PopulateX",
+  "identifier": "populatex",
+  "version": "1.0",
+  "description": "Sketch Plugin that allows you to populate artboard with content of plain text file",
+  "authorEmail": "zjlxwudan@gmail.com",
+  "author": "Dan Wu",
+  "commands": [
+    {
+      "script": "main.js",
+      "handler": "onRun",
+      "shortcut": "command shift p",
+      "name": "Populate",
+      "identifier": "populatex.populate"
+    }
+  ]
+}
